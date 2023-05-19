@@ -1,2 +1,11 @@
+# Virtual Environment
+venv/
+
+# Environment Variables
 .env
-node_modules
+
+# Python cache Folders
+__pycache__/
+
+# Migrations Folder
+migrations/
