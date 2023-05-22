@@ -30,8 +30,10 @@ class SimpleView(discord.ui.View):
                        style=discord.ButtonStyle.red)
     async def cancel(self, interaction: discord.Interaction, button: discord.ui.Button):
         await interaction.response.send_message("Cancelled")
+        await interaction.followup.send(content="!survey")
         self.foo = False
         self.stop()
+        
         
     @discord.ui.button(label="Add games from list", 
                        style=discord.ButtonStyle.blurple)

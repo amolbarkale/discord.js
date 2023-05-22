@@ -21,7 +21,6 @@ def run():
        
     @bot.tree.command(description="Welcomes user!", name="greetings") #we can add nsfw = True (optional)
     async def bello(interaction: discord.Interaction):
-        print("..............................................")
         await interaction.response.send_message(f"Ciao! {interaction.user.mention}", ephemeral=True)
       
     bot.run(settings.DISCORD_API_TOKEN, root_logger=True)

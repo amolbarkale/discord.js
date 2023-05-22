@@ -1,5 +1,4 @@
 from re import A
-import typing
 import settings
 import discord
 from discord.ext import commands
@@ -31,35 +30,7 @@ def run():
         current: str,
     ) -> List[app_commands.Choice[str]]:
         games = [
-        "Minecraft",
-        "Grand Theft Auto V",
-        "The Witcher 3: Wild Hunt",
-        "Red Dead Redemption 2",
-        "The Legend of Zelda: Breath of the Wild",
-        "Super Mario Odyssey",
-        "God of War",
-        "The Last of Us",
-        "Uncharted 4: A Thief's End",
-        "Horizon Zero Dawn"
-        "Super Smash Bros. Ultimate",
-        "Animal Crossing: New Horizons",
-        "Pokémon Sword and Shield",
-        "Pokémon Legends: Arceus",
-        "Mario Kart 8 Deluxe",
-        "The Elder Scrolls V: Skyrim",
-        "Fallout 4",
-        "Grand Theft Auto IV",
-        "BioShock Infinite",
-        "Mass Effect 2"
-        "The Elder Scrolls IV: Oblivion",
-        "Fallout 3",
-        "The Witcher 2: Assassins of Kings",
-        "Red Dead Redemption",
-        "Grand Theft Auto: San Andreas",
-        "Metal Gear Solid V: The Phantom Pain",
-        "Grand Theft Auto IV: The Lost and Damned",
-        "Grand Theft Auto IV: The Ballad of Gay Tony",
-        "Metal Gear Solid 4: Guns of the Patriots",
+        "Minecraft",     "Metal Gear Solid 4: Guns of the Patriots",
         "Uncharted 2: Among Thieves"
         "The Last of Us Remastered",
         "Grand Theft Auto V: Premium Edition",
